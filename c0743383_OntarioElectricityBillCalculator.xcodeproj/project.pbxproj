@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B7E20E72195F628002D2CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E20E62195F628002D2CD7 /* AppDelegate.swift */; };
+		2B7E20E92195F628002D2CD7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E20E82195F628002D2CD7 /* LoginViewController.swift */; };
+		2B7E20EC2195F628002D2CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E20EA2195F628002D2CD7 /* Main.storyboard */; };
+		2B7E20EE2195F629002D2CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E20ED2195F629002D2CD7 /* Assets.xcassets */; };
+		2B7E20F12195F629002D2CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E20EF2195F629002D2CD7 /* LaunchScreen.storyboard */; };
+		2B7E20F92195F87E002D2CD7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E20F82195F87E002D2CD7 /* SplashViewController.swift */; };
+		2B7E20FC2195FA0F002D2CD7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E20FB2195FA0F002D2CD7 /* logo.png */; };
+		2B7E20FE2195FB19002D2CD7 /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E20FD2195FB19002D2CD7 /* Users.plist */; };
+		2B7E21042195FDD4002D2CD7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E21032195FDD4002D2CD7 /* User.swift */; };
+		2B7E2106219601A9002D2CD7 /* EntryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2105219601A9002D2CD7 /* EntryScreenViewController.swift */; };
+		2B7E210821961597002D2CD7 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E210721961597002D2CD7 /* DetailsTableViewController.swift */; };
+		2B7E210A219629E1002D2CD7 /* ElectricityBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2109219629E1002D2CD7 /* ElectricityBill.swift */; };
+		2B7E210C21965AA5002D2CD7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E210B21965AA5002D2CD7 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B7E20E32195F628002D2CD7 /* c0743383_OntarioElectricityBillCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = c0743383_OntarioElectricityBillCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7E20E62195F628002D2CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B7E20E82195F628002D2CD7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B7E20EB2195F628002D2CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B7E20ED2195F629002D2CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B7E20F02195F629002D2CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B7E20F22195F629002D2CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7E20F82195F87E002D2CD7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2B7E20FB2195FA0F002D2CD7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2B7E20FD2195FB19002D2CD7 /* Users.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Users.plist; sourceTree = "<group>"; };
+		2B7E21032195FDD4002D2CD7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2B7E2105219601A9002D2CD7 /* EntryScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryScreenViewController.swift; sourceTree = "<group>"; };
+		2B7E210721961597002D2CD7 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		2B7E2109219629E1002D2CD7 /* ElectricityBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBill.swift; sourceTree = "<group>"; };
+		2B7E210B21965AA5002D2CD7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B7E20E02195F628002D2CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B7E20DA2195F627002D2CD7 = {
+			isa = PBXGroup;
+			children = (
+				2B7E20E52195F628002D2CD7 /* c0743383_OntarioElectricityBillCalculator */,
+				2B7E20E42195F628002D2CD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B7E20E42195F628002D2CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E20E32195F628002D2CD7 /* c0743383_OntarioElectricityBillCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B7E20E52195F628002D2CD7 /* c0743383_OntarioElectricityBillCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E21012195FD7D002D2CD7 /* models */,
+				2B7E21002195FD76002D2CD7 /* controllers */,
+				2B7E20FF2195FD6E002D2CD7 /* views */,
+				2B7E20FA2195F9F3002D2CD7 /* images */,
+				2B7E20F22195F629002D2CD7 /* Info.plist */,
+				2B7E20FD2195FB19002D2CD7 /* Users.plist */,
+				2B7E21022195FD8F002D2CD7 /* supporting files */,
+			);
+			path = c0743383_OntarioElectricityBillCalculator;
+			sourceTree = "<group>";
+		};
+		2B7E20FA2195F9F3002D2CD7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E20FB2195FA0F002D2CD7 /* logo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2B7E20FF2195FD6E002D2CD7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E20EA2195F628002D2CD7 /* Main.storyboard */,
+				2B7E20EF2195F629002D2CD7 /* LaunchScreen.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		2B7E21002195FD76002D2CD7 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E20E82195F628002D2CD7 /* LoginViewController.swift */,
+				2B7E20F82195F87E002D2CD7 /* SplashViewController.swift */,
+				2B7E2105219601A9002D2CD7 /* EntryScreenViewController.swift */,
+				2B7E210721961597002D2CD7 /* DetailsTableViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		2B7E21012195FD7D002D2CD7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E21032195FDD4002D2CD7 /* User.swift */,
+				2B7E2109219629E1002D2CD7 /* ElectricityBill.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		2B7E21022195FD8F002D2CD7 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E20E62195F628002D2CD7 /* AppDelegate.swift */,
+				2B7E20ED2195F629002D2CD7 /* Assets.xcassets */,
+				2B7E210B21965AA5002D2CD7 /* Extensions.swift */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B7E20E22195F628002D2CD7 /* c0743383_OntarioElectricityBillCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7E20F52195F629002D2CD7 /* Build configuration list for PBXNativeTarget "c0743383_OntarioElectricityBillCalculator" */;
+			buildPhases = (
+				2B7E20DF2195F628002D2CD7 /* Sources */,
+				2B7E20E02195F628002D2CD7 /* Frameworks */,
+				2B7E20E12195F628002D2CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = c0743383_OntarioElectricityBillCalculator;
+			productName = c0743383_OntarioElectricityBillCalculator;
+			productReference = 2B7E20E32195F628002D2CD7 /* c0743383_OntarioElectricityBillCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B7E20DB2195F627002D2CD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daian Aiziatov";
+				TargetAttributes = {
+					2B7E20E22195F628002D2CD7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B7E20DE2195F627002D2CD7 /* Build configuration list for PBXProject "c0743383_OntarioElectricityBillCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B7E20DA2195F627002D2CD7;
+			productRefGroup = 2B7E20E42195F628002D2CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B7E20E22195F628002D2CD7 /* c0743383_OntarioElectricityBillCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B7E20E12195F628002D2CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7E20FC2195FA0F002D2CD7 /* logo.png in Resources */,
+				2B7E20F12195F629002D2CD7 /* LaunchScreen.storyboard in Resources */,
+				2B7E20FE2195FB19002D2CD7 /* Users.plist in Resources */,
+				2B7E20EE2195F629002D2CD7 /* Assets.xcassets in Resources */,
+				2B7E20EC2195F628002D2CD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B7E20DF2195F628002D2CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7E21042195FDD4002D2CD7 /* User.swift in Sources */,
+				2B7E20F92195F87E002D2CD7 /* SplashViewController.swift in Sources */,
+				2B7E20E92195F628002D2CD7 /* LoginViewController.swift in Sources */,
+				2B7E210C21965AA5002D2CD7 /* Extensions.swift in Sources */,
+				2B7E20E72195F628002D2CD7 /* AppDelegate.swift in Sources */,
+				2B7E210A219629E1002D2CD7 /* ElectricityBill.swift in Sources */,
+				2B7E210821961597002D2CD7 /* DetailsTableViewController.swift in Sources */,
+				2B7E2106219601A9002D2CD7 /* EntryScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B7E20EA2195F628002D2CD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7E20EB2195F628002D2CD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B7E20EF2195F629002D2CD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7E20F02195F629002D2CD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B7E20F32195F629002D2CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B7E20F42195F629002D2CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B7E20F62195F629002D2CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXMC8MD6TM;
+				INFOPLIST_FILE = c0743383_OntarioElectricityBillCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daian.c0743383-OntarioElectricityBillCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B7E20F72195F629002D2CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXMC8MD6TM;
+				INFOPLIST_FILE = c0743383_OntarioElectricityBillCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daian.c0743383-OntarioElectricityBillCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B7E20DE2195F627002D2CD7 /* Build configuration list for PBXProject "c0743383_OntarioElectricityBillCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7E20F32195F629002D2CD7 /* Debug */,
+				2B7E20F42195F629002D2CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7E20F52195F629002D2CD7 /* Build configuration list for PBXNativeTarget "c0743383_OntarioElectricityBillCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7E20F62195F629002D2CD7 /* Debug */,
+				2B7E20F72195F629002D2CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B7E20DB2195F627002D2CD7 /* Project object */;
+}

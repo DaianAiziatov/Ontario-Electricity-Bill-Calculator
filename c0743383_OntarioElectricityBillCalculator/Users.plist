@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Users</key>
+	<array>
+		<dict>
+			<key>meterNumber</key>
+			<string>3287591</string>
+			<key>accountNumber</key>
+			<string>1234 5678 1231 3534</string>
+			<key>email</key>
+			<string>daian@gmail.com</string>
+			<key>password</key>
+			<string>123456</string>
+		</dict>
+	</array>
+</dict>
+</plist>
